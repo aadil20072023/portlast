@@ -21,6 +21,8 @@
   --bg-base: #020510;
   --bg-surface: #040B1A;
   --bg-card: rgba(0, 102, 255, 0.04);
+  --bg-deep: #01030a;
+  --bg-darker: #000105;
 
   /* Borders */
   --border: rgba(0, 102, 255, 0.15);
@@ -48,7 +50,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-base);
+  background-color: var(--bg-deep); /* Use deepest color as base */
   color: var(--text-primary);
   font-family: var(--font-body);
   font-size: 1rem;
