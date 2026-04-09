@@ -73,42 +73,20 @@ export const techStack = [
 export const projects = [
   {
     id: 1,
-    title: "Wonders of Aklan",
-    description: "A premium tourism platform meticulously designed to showcase the natural beauty and cultural heritage of Aklan through an immersive digital experience.",
-    extendedDescription: "This project serves as a digital gateway to Aklan's most breathtaking destinations. It features high-resolution imagery, historical context, and an intuitive travel guide interface, all wrapped in a premium, fluid UI designed for modern explorers.",
-    tags: ["React", "UI/UX", "Tourism"],
+    title: "DZD-SMM Panel",
+    description: "A premium Social Media Marketing platform meticulously designed to streamline digital growth and enhance online presence through a fast, automated, and user-centric experience.",
+    extendedDescription: "This project serves as a powerful gateway for managing social media engagement across platforms. It features a clean and modern dashboard, real-time order processing, and seamless API integration, all wrapped in a smooth, high-performance UI built for efficiency and scalability.",
+    tags: ["React", "UI/UX", "SMM"],
     image: "/Images/image.png",
     liveUrl: "https://aklan-tourism.vercel.app/",
     detailUrl: "#",
     status: "Deployed",
     color: "#0066FF",
   },
+  
+  
   {
     id: 2,
-    title: "Banana Leaf Disease Detection",
-    description: "An AI-driven agricultural solution leveraged for identifying diseases in banana leaves through image analysis, helping farmers protect their crops.",
-    extendedDescription: "Developing a robust machine learning model to assist local farmers. The application uses specialized computer vision algorithms to detect early signs of Sigatoka and Panama disease, providing actionable insights directly to the user's mobile device.",
-    tags: ["AI/ML", "Image Analysis", "In Progress"],
-    image: "/Images/Musaic.png",
-    liveUrl: "#",
-    detailUrl: "#",
-    status: "Developing",
-    color: "#10B981",
-  },
-  {
-    id: 3,
-    title: "Weather Map - API",
-    description: "A dynamic weather visualization tool utilizing real-time API data to provide interactive global weather patterns and forecasts.",
-    extendedDescription: "A comprehensive weather dashboard that visualizes global atmospheric data in real-time. It integrates multiple API layers to show temperature heatmaps, wind vectors, and severe weather alerts with a dark-mode optimized GIS interface.",
-    tags: ["API", "Geography", "Real-time"],
-    image: "/Images/WeatherMap.png",
-    liveUrl: "#",
-    detailUrl: "#",
-    status: "Developing",
-    color: "#0EA5E9",
-  },
-  {
-    id: 4,
     title: "Portfolio Version 1",
     description: "The initial foundation of my web presence, showcasing early explorations in structural web engineering and minimalist design principles.",
     extendedDescription: "My first foray into professional web development. This project focused on mastering the fundamentals of semantic HTML, responsive CSS architecture, and the beginning of my obsession with smooth, meaningful animations.",
@@ -130,10 +108,10 @@ export const certificates = [
 ];
 
 export const academic = {
-  degree: "Bachelor of Science in Information Technology",
+  degree: "Bachelor of Science in Software Engineering",
   major: "Major in Software Engineering",
-  institution: "Aklan State University – College of Computer Studies",
-  period: "2023 — Present",
+  institution: "Birmingham University – College of Computer Studies",
+  period: "2025 — Present",
   timeline: [
     {
       id: "01",
