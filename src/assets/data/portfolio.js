@@ -83,6 +83,7 @@ export const projects = [
     detailUrl: "#",
     status: "Deployed",
     color: "#0066FF",
+    owner: "Aadil, Danuka, Akash" // You can change this name
   },
 
 
