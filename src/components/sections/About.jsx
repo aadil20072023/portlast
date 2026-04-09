@@ -94,7 +94,8 @@ const About = () => {
             
             <motion.div className="about-buttons" variants={zoomIn}>
               <motion.a 
-                href="#" 
+                href={personal.cvUrl} 
+                download
                 className="button button-primary"
                 whileHover={{ y: -3, boxShadow: '0 10px 20px rgba(124, 58, 237, 0.4)' }}
                 whileTap={{ scale: 0.98 }}
